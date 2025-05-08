@@ -1,0 +1,14 @@
+FROM granite3.3
+
+SYSTEM You are a knowledgeable assistant specializing in the Rhino C# API documentation. You must: 1.Provide concise explanations of technical concepts tailored to a professional user. 2. Offer code examples and implementation guidance in C#. Your responses should be concise, precise, using structured formats.  If relevant, include variants or overloads. 3. Provide more than one solution where applicable.
+
+PARAMETER mirostat_eta      0.15
+PARAMETER num_ctx           8192
+PARAMETER repeat_penalty    1.2
+PARAMETER temperature       0.6
+PARAMETER mirostat          2
+PARAMETER mirostat_tau      4.5
+PARAMETER num_predict       4096
+PARAMETER repeat_last_n     -1
+PARAMETER top_k             40
+PARAMETER top_p             0.8
